@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class HealthCheckerTest < ActiveSupport::TestCase
+class RailsHealthCheckerTest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, HealthChecker
+    assert_kind_of Module, RailsHealthChecker
   end
 end

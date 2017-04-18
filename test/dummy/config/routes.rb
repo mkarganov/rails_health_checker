@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount HealthChecker::Engine => "/health_checker"
+  mount RailsHealthChecker::Engine => "/health_checker"
 end

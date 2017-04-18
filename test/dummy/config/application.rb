@@ -4,7 +4,7 @@ require "action_controller/railtie"
 require "action_mailer/railtie"
 
 Bundler.require(*Rails.groups)
-require "health_checker"
+require "rails_health_checker"
 
 module Dummy
   class Application < Rails::Application

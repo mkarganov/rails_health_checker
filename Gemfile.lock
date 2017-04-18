@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    health_checker (0.0.2)
+    rails_health_checker (0.0.2)
       rails (>= 3.0)
 
 GEM
@@ -123,5 +123,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  health_checker!
+  rails_health_checker!
   rspec-rails

@@ -1,4 +1,4 @@
-# HealthChecker
+# RailsHealthChecker
 
 A simple gem which adds endpoints to be used by monitoring apps like Nagios, Pingdom, NewRelic etc.
 
@@ -7,13 +7,13 @@ A simple gem which adds endpoints to be used by monitoring apps like Nagios, Pin
 In Gemfile:
 
 ```ruby
-  gem 'health_checker'
+  gem 'rails_health_checker'
 ```
 
 In /config/routes.rb
 
 ```ruby
-  mount HealthChecker::Engine, at: "/health_checker"
+  mount RailsHealthChecker::Engine, at: "/health_checker"
 ```
 
 it will add `/health_checker/health` route to your app which responds with "OK"

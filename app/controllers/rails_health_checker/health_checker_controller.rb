@@ -1,4 +1,4 @@
-module HealthChecker
+module RailsHealthChecker
   class HealthCheckerController < ApplicationController
 
     def health

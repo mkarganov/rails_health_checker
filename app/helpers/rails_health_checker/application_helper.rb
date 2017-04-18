@@ -1,4 +1,4 @@
-module HealthChecker
+module RailsHealthChecker
   module ApplicationHelper
   end
 end
