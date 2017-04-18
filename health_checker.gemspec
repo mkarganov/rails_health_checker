@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = HealthChecker::VERSION
   s.authors     = ["maksim karganov"]
   s.email       = ["maksim.karganov@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/mkarganov/health_checker"
   s.summary     = "Adds health check endpoints for monitoring"
   s.description = "Adds health check endpoints for monitoring"
   s.license     = "MIT"
