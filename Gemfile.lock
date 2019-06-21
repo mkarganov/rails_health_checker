@@ -1,9 +1,8 @@
-
 PATH
   remote: .
   specs:
     rails_health_checker (0.0.2)
-      rails (>= 3.0)
+      rails (>= 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -107,7 +106,7 @@ GEM
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
-    rspec-mocks (3.5.0)
+    rspec-mocks (3.5.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-rails (3.5.2)
